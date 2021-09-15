@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usb_sender", "usb_sender\usb_sender.vcxproj", "{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dcs_interface", "external\cpp-dcs-interface\dcs_interface\dcs_interface.vcxproj", "{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hidapi", "external\hidapi\windows\hidapi.vcxproj", "{A107C21C-418A-4697-BB10-20C3AA60E2E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Debug|x64.ActiveCfg = Debug|x64
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Debug|x64.Build.0 = Debug|x64
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Debug|x86.ActiveCfg = Debug|Win32
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Debug|x86.Build.0 = Debug|Win32
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Release|x64.ActiveCfg = Release|x64
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Release|x64.Build.0 = Release|x64
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Release|x86.ActiveCfg = Release|Win32
+		{84149FF4-CA6B-4A5F-BEBE-769E8B8D3F5D}.Release|x86.Build.0 = Release|Win32
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Debug|x64.ActiveCfg = Debug|x64
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Debug|x64.Build.0 = Debug|x64
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Debug|x86.Build.0 = Debug|Win32
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Release|x64.ActiveCfg = Release|x64
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Release|x64.Build.0 = Release|x64
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Release|x86.ActiveCfg = Release|Win32
+		{925CFF57-D115-4A57-BAD6-DF40EFD6ABA0}.Release|x86.Build.0 = Release|Win32
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Debug|x64.ActiveCfg = Debug|x64
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Debug|x64.Build.0 = Debug|x64
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Debug|x86.Build.0 = Debug|Win32
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Release|x64.ActiveCfg = Release|x64
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Release|x64.Build.0 = Release|x64
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Release|x86.ActiveCfg = Release|Win32
+		{A107C21C-418A-4697-BB10-20C3AA60E2E4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5BFE647-3ADF-4A0E-B01B-D87F91F9093E}
+	EndGlobalSection
+EndGlobal

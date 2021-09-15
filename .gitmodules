@@ -1,0 +1,9 @@
+[submodule "external/cpp-dcs-interface"]
+	path = external/cpp-dcs-interface
+	url = https://github.com/charlestytler/cpp-dcs-interface
+[submodule "external/hidapi"]
+	path = external/hidapi
+	url = https://github.com/libusb/hidapi.git
+[submodule "external/json"]
+	path = external/json
+	url = https://github.com/nlohmann/json.git
