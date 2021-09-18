@@ -1,10 +1,39 @@
 {
-    "Device_1": {
-        "VID": "0x48E3",
-        "PID": "0xBE30",
-        "LED": {
-            "id": 0,
-            "Value": 125
+    "ConnectionSettings": {
+        "listener_port": "1725",
+        "send_port": "9209",
+        "ip_address": "127.0.0.1"
+    },
+    "Devices": [
+        {
+            "VID": "0x48E3",
+            "PID": "0xBE30",
+            "Subscribe": [
+                {
+                    "Subscriber_ID": 0,
+                    "DCS_ID": 0,
+                    "Scale": 255,
+                    "Bias": 0
+                }
+            ]
+        },
+        {
+            "VID": "0x48E3",
+            "PID": "0xBE30",
+            "Subscribe": [
+                {
+                    "Subscriber_ID": 0,
+                    "DCS_ID": 0,
+                    "Scale": 255,
+                    "Bias": 0
+                },
+                {
+                    "Subscriber_ID": 1,
+                    "DCS_ID": 0,
+                    "Scale": 255,
+                    "Bias": 0
+                }
+            ]
         }
-    }
+    ]
 }
